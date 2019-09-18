@@ -1,0 +1,1 @@
+mvn clean test -Dmaven.clean.failOnError=false&&allure generate target/allure-results -o allure-report --clean&&for /R %%v in (target\*.mov) do (ffmpeg -i %%v "target\%%~nv.mp4")&&Move .\target\*.mp4 .\allure-report\data\attachments

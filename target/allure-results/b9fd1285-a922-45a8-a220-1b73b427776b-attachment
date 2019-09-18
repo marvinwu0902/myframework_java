@@ -1,0 +1,12 @@
+<html>
+<script src="chrome-extension://bkjhhpofabdbekofdeijliifhaloginp/page/prompt.js"></script>
+<script src="chrome-extension://bkjhhpofabdbekofdeijliifhaloginp/page/runScript.js"></script>
+<head>
+</head>
+<body>
+<a href="test_login.mp4">Click Download</a>
+<video controls autoplay name="media">
+<source src ="test_login.mp4" type="video/mp4">
+</video>
+</body>
+</html>

@@ -1,0 +1,3 @@
+2019-09-11 20:56:36 INFO  TestListener:111 - I am in onStart method test
+2019-09-11 20:56:55 INFO  TestListener:239 - I am in onTestSkipped method test_login skipped
+2019-09-11 20:56:55 INFO  TestListener:239 - I am in onTestSkipped method test_login skipped

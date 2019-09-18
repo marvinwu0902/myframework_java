@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 43.007 s <<< FAILURE! - in TestSuite
+test_login(testcase.TestFactory)  Time elapsed: 5.065 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : 登录失败，请检查您的用户名或密码是否填写正确。}
+  (Session info: chrome=76.0.3809.132): 登录失败，请检查您的用户名或密码是否填写正确。
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-0U47NMQ', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}), userDataDir=C:\Users\marvi\AppData\Local\Temp\scoped_dir1844_542339857}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:49816}, acceptInsecureCerts=false, browserVersion=76.0.3809.132, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: 6c079653765cb33f01b920d70a95fc18
+	at testcase.TestFactory.test_login(TestFactory.java:38)
+
